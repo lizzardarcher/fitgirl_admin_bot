@@ -1,0 +1,17 @@
+/core/db.sqlite3
+/venv/
+/core/static/media/*
+/core/core/settings.py
+.idea/.gitignore
+.idea/bot_fitgirl_repack_portfolio.iml
+.idea/dataSources.xml
+.idea/deployment.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/sshConfigs.xml
+.idea/vcs.xml
+.idea/webServers.xml
+core/__init__.py
+core/__pycache__/
+
