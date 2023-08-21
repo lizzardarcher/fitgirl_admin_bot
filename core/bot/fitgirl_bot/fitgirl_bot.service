@@ -1,0 +1,15 @@
+[Unit]
+Description=Fitgirl bot
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/html/core/bot/fitgirl_bot/
+ExecStart=/usr/bin/python3.8 /var/www/html/core/bot/fitgirl_bot/bot.py
+RestartSec=10
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
